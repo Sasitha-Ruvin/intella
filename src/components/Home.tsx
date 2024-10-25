@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroSection } from './ui/HeroSection'
+import { HeroSection } from './ui/Hero/HeroSection'
 import { Navbar } from './ui/Navbar/Navbar'
 import { CardSection } from './ui/CardSection'
 

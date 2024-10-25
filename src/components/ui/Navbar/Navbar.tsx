@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../../Images/intellawhite.jpg'
+import logo from '../../../Images/intellablack.jpg'
 import { FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css'
 
