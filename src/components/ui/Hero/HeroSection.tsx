@@ -11,7 +11,7 @@ export const HeroSection = () => {
   const title = "Intella".split("");
 
   return (
-    <section className="mt-5 relative flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-gray-900 via-gray-700 to-gray-500 p-8 rounded-md">
+    <section className="relative flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-gray-900 via-gray-700 to-gray-500 p-8">
       {/* Left: Text Section */}
       <div className="text-left spacing-x-4">
         <h1 className="flex text-5xl md:text-8xl font-bold text-white mb-3">

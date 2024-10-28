@@ -18,6 +18,10 @@ import ps from '../Images/Icons/adobephotoshop.png'
 import canva from "../Images/Icons/canva.png"
 import coral from "../Images/Icons/coral.png"
 
+import acw from "../Images/Projects/acw.png"
+import shoezzyy from "../Images/Projects/shoezzyy.png"
+import { link } from 'fs';
+
 export const Cards = [
     {
         title:"Web Developement",
@@ -62,5 +66,25 @@ export const Technologies = [
     {
         name:"flutter",
         logo:icon5
+    }
+]
+
+export const Projects = [
+    {
+        title:"Advanced Classic White",
+        description:"A website made for a Nature Miracles (pvt) Ltd to showcase their products and allow their customers to place orders through the website",
+        image:acw,
+        link:"https://advancedclassicwhite.vercel.app/"
+
+    },
+    {
+        title:"Shoezzyy",
+        description:"A website made for Shoezzyy for showcase their products and allowing their customers to track their orders through the site, furthermore this allows admins to manage all the products within the website",
+        image:shoezzyy,
+        link:"https://shoezzyy.com/"
+
+    },
+    {
+
     }
 ]
