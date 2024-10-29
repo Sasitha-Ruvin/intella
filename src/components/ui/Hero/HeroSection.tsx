@@ -7,6 +7,12 @@ import image4 from '../../../Images/dev2.png';
 import './HeroSection.css';
 
 export const HeroSection = () => {
+  const openWhatsApp = () => {
+    const whatsappNumber = '+94703025601';
+    const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   // Define each letter of "Intella" in an array
   const title = "Intella".split("");
 
@@ -37,7 +43,7 @@ export const HeroSection = () => {
           creativity and innovation <br />
           bringing your vision to life
         </motion.p>
-        <button className="mt-4 px-6 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-700">
+        <button className="mt-4 px-6 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-700" onClick={openWhatsApp}>
           Let’s Chat
         </button>
       </div>

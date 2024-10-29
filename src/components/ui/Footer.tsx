@@ -3,6 +3,12 @@ import logo from '../../Images/footerlogo.png'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTiktok, FaWhatsapp } from 'react-icons/fa'
 
 export const Footer = () => {
+    const openWhatsApp = () => {
+        const whatsappNumber = '+94703025601';
+        const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+        window.open(whatsappUrl, '_blank');
+      };
+    
   return (
     <footer className='bg-gradient-to-b from-gray-700 to-gray-900 text-gray-300 py-10'>
         <div className='container mx-auto px-4 md:px-8 lg:px-16 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0'>
@@ -45,7 +51,7 @@ export const Footer = () => {
                 <p className=' text-center md:text-right text-gray-400 italic'>
                     "Creating Digital Connection, Everywhere"
                 </p>
-                <button className='bg-gray-600 text-gray-200 px-6 py-2 rounded-full hover:bg-gray-500 transition duration-300'>
+                <button className='bg-gray-600 text-gray-200 px-6 py-2 rounded-full hover:bg-gray-500 transition duration-300' onClick={openWhatsApp}>
                     Get in touch
                 </button>
             </div>
