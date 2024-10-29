@@ -35,6 +35,12 @@ export const Footer = () => {
                 <a href="#" className="hover:text-white transition-colors duration-300">What We Offer</a>
                 <a href="#" className="hover:text-white transition-colors duration-300">Who We Are</a>
             </div>
+
+            <div className="text-gray-400 ">
+            <p>Phone: 070-302-5601</p>
+            <br />
+            <a href='mailto:intellacreations@gmail.com'>Email: intellacreations@gmail.com</a>
+          </div>
             <div className='flex flex-col items-center md:items-end space-y-4'>
                 <p className=' text-center md:text-right text-gray-400 italic'>
                     "Creating Digital Connection, Everywhere"
