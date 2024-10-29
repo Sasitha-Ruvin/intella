@@ -8,6 +8,7 @@ import { ProjectSlider } from './ui/ProjectSlider'
 import { Testimonials } from './ui/Testimonials'
 import { ContactUs } from './ui/ContactUs'
 import { Footer } from './ui/Footer'
+import { Expertise } from './ui/Expertise'
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
         <CardSection/>
         <TechStack/>
         <ProjectSlider/>
+        <Expertise/>
         <Testimonials/>
         <ContactUs/>
         <Footer/>

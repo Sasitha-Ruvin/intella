@@ -23,8 +23,10 @@ import shoezzyy from "../Images/Projects/shoezzyy.png"
 import valyrian from "../Images/Projects/valyrian.png"
 import client1 from '../Images/Clients/afzal.png'
 import client2 from '../Images/Clients/acwdirector.jpg'
-import { link } from 'fs';
-
+import innovative from '../Images/Icons/inovative.png'
+import strategy from '../Images/Icons/strategy.png'
+import icon7 from '../Images/Icons/5.png'
+import icon8 from '../Images/Icons/6.png'
 export const Cards = [
     {
         title:"Web Developement",
@@ -111,4 +113,32 @@ export const testimonials = [
         image:client2
 
     },
+]
+
+export const speciality = [
+    {
+        icon:innovative,
+        title:"Innovative Solutions",
+        description:"We craft innovative digital solutions tailored to your unique business needs."
+
+    },
+    {
+        icon:icon7,
+        title:"Affordability with Quality",
+        description:"We deliver top-notch web and app development services that maximize your budget."
+
+    },
+    {
+        icon:strategy,
+        title: "Growth-Driven Strategy",
+        description: "We design scalable digital solutions that evolve with your business."
+
+    },
+    {
+        icon:icon8,
+        title:"Tailored Expertise",
+        description:"We specialize in creating custom web, app, and design solutions across various industries."
+
+    },
+
 ]
