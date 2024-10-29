@@ -5,6 +5,9 @@ import { CardSection } from './ui/CardSection'
 import { HeroText } from './ui/HeroText'
 import { TechStack } from './ui/TechStack'
 import { ProjectSlider } from './ui/ProjectSlider'
+import { Testimonials } from './ui/Testimonials'
+import { ContactUs } from './ui/ContactUs'
+import { Footer } from './ui/Footer'
 
 export const Home = () => {
   return (
@@ -15,6 +18,9 @@ export const Home = () => {
         <CardSection/>
         <TechStack/>
         <ProjectSlider/>
+        <Testimonials/>
+        <ContactUs/>
+        <Footer/>
     </div>
     
   )

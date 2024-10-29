@@ -20,6 +20,9 @@ import coral from "../Images/Icons/coral.png"
 
 import acw from "../Images/Projects/acw.png"
 import shoezzyy from "../Images/Projects/shoezzyy.png"
+import valyrian from "../Images/Projects/valyrian.png"
+import client1 from '../Images/Clients/afzal.png'
+import client2 from '../Images/Clients/acwdirector.jpg'
 import { link } from 'fs';
 
 export const Cards = [
@@ -85,6 +88,27 @@ export const Projects = [
 
     },
     {
+        title:"Valyrian Spice",
+        description: "A Website made for a Restaurant",
+        image:valyrian,
+        link:""
 
     }
+]
+
+export const testimonials = [
+    {
+        name:"Afzal",
+        role:"Owner Shoezzyy",
+        message:"I had an amazing experience working with the Intella team who developed my company’s website. The entire process was smooth and seamless, and the final result was incredibly neat and polished, all within a very reasonable budget. The team was friendly, professional, and always ready to accommodate any requests I had. I’m extremely satisfied with the outcome and highly recommend their services!",
+        image:client1
+
+    },
+    {
+        name:"D.J.M Priyangani",
+        role:"Managing Director",
+        message:"Intella did an outstanding job creating the website for Advanced Classic White. They were incredibly easy to work with, always maintained clear and open communication, and made the entire process very calm and seamless. Their expertise and dedication truly shone through in the final product. We couldn’t be happier with the result and highly recommend Intella for any web development needs!",
+        image:client2
+
+    },
 ]
