@@ -3,7 +3,7 @@ import {easeInOut, motion} from 'framer-motion'
 
 export const HeroText = () => {
   return (
-    <div className="flex items-center justify-center text-center mt-5 mb-8 md:mt-6 md:mb-5 w-full">
+    <div className="flex items-center justify-center text-center mt-5 mb-8 md:mt-6 md:mb-5 w-full" id='about'>
       <motion.h1 
       initial={{opacity:0, y:20}}
       animate={{opacity:1, y:0}}

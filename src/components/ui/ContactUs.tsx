@@ -37,22 +37,23 @@ export const ContactUs = () => {
     }
 
   return (
-    <section className='flex justify-center items-center py-10'>
+    <section className='flex justify-center items-center py-10' id='contact'>
         <div className='bg-gradient-to-b from-gray-300 to-gray-500 rounded-lg shadow-lg p-8 w-full max-w-2xl md:flex'>
             <div className='md:w-1/2'>
                 <h2 className='text-lg font-semibold mb-6'>Get in Touch</h2>
-                <form action="" className='space-y-4'>
+                <form ref={form} onSubmit={sendEmail} className='space-y-4'>
                     <div>
-                        <input type="text" placeholder='Your Name' className='w-full p-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
+                        <input name='name' type="text" placeholder='Your Name' className='w-full p-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
                     </div>
                     <div>
-                        <input type="text" placeholder='Email' className='w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
+                        <input name='email' type="text" placeholder='Email' className='w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
                     </div>
                     <div>
-                    <input type="number" placeholder='Contact Number' className='w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
+                    <input name='contact' type="number" placeholder='Contact Number' className='w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400' />
                     </div>
                     <div>
                         <textarea
+                        name='message'
                         placeholder="Message..."
                         className="w-full p-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 h-24 resize-none"
                         />

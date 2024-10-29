@@ -3,7 +3,7 @@ import { speciality } from '../../data'
 
 export const Expertise = () => {
   return (
-    <div className='bg-gray-50 py-12'>
+    <div className='bg-gray-50 py-12' id='expertise'>
         <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 text-center'>
             {speciality.map((item,index)=>(
                 <div key={index} className='flex flex-col items-center'>

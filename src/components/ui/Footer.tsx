@@ -51,7 +51,7 @@ export const Footer = () => {
                 <p className=' text-center md:text-right text-gray-400 italic'>
                     "Creating Digital Connection, Everywhere"
                 </p>
-                <button className='bg-gray-600 text-gray-200 px-6 py-2 rounded-full hover:bg-gray-500 transition duration-300' onClick={openWhatsApp}>
+                <button type='submit' className='bg-gray-600 text-gray-200 px-6 py-2 rounded-full hover:bg-gray-500 transition duration-300' onClick={openWhatsApp}>
                     Get in touch
                 </button>
             </div>

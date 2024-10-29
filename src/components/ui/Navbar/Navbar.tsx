@@ -28,10 +28,10 @@ export const Navbar = () => {
           <nav className="hidden md:flex flex-1 mx-8">
             <ul className="flex justify-center w-full space-x-32">
               <li><a href="/" className='text-white'>Home</a></li>
-              <li><a href="" className='text-white'>About Us</a></li>
+              <li><a href="#about" className='text-white'>About Us</a></li>
               <li><a href="#services" className='text-white'>Services</a></li>
-              <li><a href="" className='text-white'>Team</a></li>
-              <li><a href="" className='text-white'>Contact Us</a></li>
+              <li><a href="#expertise" className='text-white'>Expertise</a></li>
+              <li><a href="#contact" className='text-white'>Contact Us</a></li>
             </ul>
           </nav>
 
