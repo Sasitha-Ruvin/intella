@@ -5,12 +5,8 @@ import { Home } from './components/Home';
 import { LoadingScreen } from './components/LoadingScreen';
 
 function App() {
-  const [isLoading, setIsLoading] = useState<boolean>(() => {
-    // Check if loading animation has already played
-    return localStorage.getItem('hasLoaded') !== 'true';
-  });
   
-
+  const [isLoading, setIsLoading] = useState(true);
 
   // Function to handle when loading is finished
   const handleLoadingFinish = () => {
