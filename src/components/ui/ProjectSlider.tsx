@@ -1,7 +1,7 @@
 import React from 'react';
 import { Projects } from '../../data';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow } from 'swiper/modules';
+import { EffectCoverflow, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -17,11 +17,12 @@ export const ProjectSlider = () => {
       </p>
 
       <Swiper
-        modules={[EffectCoverflow]}
+        modules={[EffectCoverflow, Autoplay]}
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
         loop={true}
+        autoplay={{delay:3000, disableOnInteraction:false}}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,

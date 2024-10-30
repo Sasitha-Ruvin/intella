@@ -6,7 +6,7 @@ export const Testimonials = () => {
     <section className='bg-gray-800 text-white py-10'>
         <div className='container mx-auto px-4'>
             <h2 className='text-center text-2xl font-semibold mb-6'>What Our Clients Say</h2>
-            <div className='flex flex-col md:flex-row justify-center gap-6'>
+            <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
                 {testimonials.map((testimonial,index)=>(
                     <div
                     key={index}

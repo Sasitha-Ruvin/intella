@@ -9,6 +9,7 @@ import { Testimonials } from './ui/Testimonials'
 import { ContactUs } from './ui/ContactUs'
 import { Footer } from './ui/Footer'
 import { Expertise } from './ui/Expertise'
+import { Team } from './ui/Team'
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
         <ProjectSlider/>
         <Expertise/>
         <Testimonials/>
+        <Team/>
         <ContactUs/>
         <Footer/>
     </div>

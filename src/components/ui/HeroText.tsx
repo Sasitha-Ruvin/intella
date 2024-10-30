@@ -8,7 +8,7 @@ export const HeroText = () => {
       initial={{opacity:0, y:20}}
       animate={{opacity:1, y:0}}
       transition={{duration:2, ease:easeInOut}}
-      className="text-xs md:text-2xl font-medium max-w-4xl md:leading-loose ">
+      className="text-lg md:text-2xl font-medium max-w-4xl md:leading-loose ">
         If you're looking for an agency that excels in web development, app development,<br/> and graphic design, delivering seamless digital solutions and standout visuals, then you've come to the right place!
       </motion.h1>
     </div>

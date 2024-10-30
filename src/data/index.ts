@@ -27,6 +27,13 @@ import innovative from '../Images/Icons/inovative.png'
 import strategy from '../Images/Icons/strategy.png'
 import icon7 from '../Images/Icons/5.png'
 import icon8 from '../Images/Icons/6.png'
+
+import sasitha from '../Images/Team/sasitha.jpeg'
+import lokitha from '../Images/Team/lokitha.jpeg'
+import anuja from '../Images/Team/anuja.jpeg'
+import dineth from '../Images/Team/dino.png'
+
+
 export const Cards = [
     {
         title:"Web Developement",
@@ -138,6 +145,41 @@ export const speciality = [
         icon:icon8,
         title:"Tailored Expertise",
         description:"We specialize in creating custom web, app, and design solutions across various industries."
+
+    },
+
+]
+
+export const team = [
+  
+    {
+        name:"Sasitha Ruvin",
+        img:sasitha,
+        linkedinUrl:"",
+        githubUrl:"",
+        instaUrl:""
+
+    },
+    {
+        name:"Anuja Amarasinghe",
+        img:anuja,
+        linkedinUrl:"",
+        githubUrl:"",
+        instaUrl:""
+
+    },
+    {
+        name:"Lokitha Yapa",
+        img:lokitha,
+        linkedinUrl:"",
+        githubUrl:"",
+        instaUrl:""
+    },
+    {
+        name:"Dineth Kumarage",
+        img:dineth,
+        linkedinUrl:"",
+        githubUrl:""
 
     },
 
