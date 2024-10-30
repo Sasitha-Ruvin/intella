@@ -42,11 +42,11 @@ export const Navbar = () => {
         <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} absolute top-20 left-0 w-full bg-black shadow-md z-50`}>
           <nav>
             <ul className="flex flex-col items-center py-8 space-y-4">
-              <li><a href="" className="text-white" >Home</a></li>
-              <li><a href="" className="text-white" >Services</a></li>
-              <li><a href="" className="text-white" >About Us</a></li>
-              <li><a href="" className='text-white'>Team</a></li>
-              <li><a href="" className="text-white" >Contact Us</a></li>
+            <li><a href="/" className='text-white'>Home</a></li>
+              <li><a href="#about" className='text-white'>About Us</a></li>
+              <li><a href="#services" className='text-white'>Services</a></li>
+              <li><a href="#expertise" className='text-white'>Expertise</a></li>
+              <li><a href="#contact" className='text-white'>Contact Us</a></li>
             </ul>
           </nav>
         </div>
