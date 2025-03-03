@@ -8,7 +8,7 @@ const containerVariants = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2, // Delay between each child animation
+      staggerChildren: 0.2, 
     },
   },
 };
@@ -27,19 +27,19 @@ export const Team = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-100 to-gray-300 p-8" id="team" ref={ref}>
+    <div className="flex flex-col items-center  p-8" id="team" ref={ref}>
       <h2 className="text-3xl font-bold mb-8">Meet The Team!</h2>
       <motion.div
         className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-1 gap-x-8 gap-y-16 max-w-4xl md:gap-10"
         variants={containerVariants}
         initial="hidden"
-        animate={isInView ? 'show' : 'hidden'}  // Start animation when in view
+        animate={isInView ? 'show' : 'hidden'}  
       >
         {team.map((member, index) => (
           <motion.div
             key={index}
             variants={cardVariants}
-            className="flex flex-col items-center p-6 rounded-md shadow-lg bg-white/30 backdrop-blur-lg transition-transform transform hover:scale-105 hover:shadow-xl cursor-pointer duration-300"
+            className="flex flex-col items-center p-6 rounded-md shadow-lg bg-gray-300/40 backdrop-blur-lg transition-transform transform hover:scale-105 hover:shadow-xl cursor-pointer duration-300"
           >
             <img
               src={member.img}

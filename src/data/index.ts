@@ -32,6 +32,7 @@ import sasitha from '../Images/Team/sasitha.jpeg'
 import lokitha from '../Images/Team/lokitha.jpeg'
 import anuja from '../Images/Team/anuja.jpeg'
 import dineth from '../Images/Team/dino.png'
+import { title } from 'process';
 
 
 export const Cards = [
@@ -56,6 +57,12 @@ export const Cards = [
         description:"From logos and branding to marketing collateral and UI/UX design, we craft visually stunning graphics that leave a lasting impression and enhance your brand’s presence across all platforms."
 
     },
+    {
+        title:"Photography and Video Graphy",
+        imgSrc:graphic,
+        icons:[illustrator,ps,canva],
+        description:"Capture your moments with us, We provide you with professional photography and videography services for your events."
+    }
 ]
 
 export const Technologies = [
@@ -175,12 +182,4 @@ export const team = [
         githubUrl:"",
         instaUrl:""
     },
-    {
-        name:"Dineth Kumarage",
-        img:dineth,
-        linkedinUrl:"",
-        githubUrl:""
-
-    },
-
 ]
