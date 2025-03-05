@@ -30,7 +30,7 @@ export const Team = () => {
     <div className="flex flex-col items-center  p-8" id="team" ref={ref}>
       <h2 className="text-3xl font-bold mb-8">Meet The Team!</h2>
       <motion.div
-        className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-1 gap-x-8 gap-y-16 max-w-4xl md:gap-10"
+        className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-1 gap-x-8 gap-y-16 max-w-4xl md:gap-10"
         variants={containerVariants}
         initial="hidden"
         animate={isInView ? 'show' : 'hidden'}  
